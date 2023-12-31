@@ -1,6 +1,6 @@
-import Navbar from './navbar/navbar.jsx'
-import Footer from './footer/footer.jsx'
-import Body from './body/body.jsx'
+import Navbar from './components/navbar/navbar.jsx'
+import Footer from './components/footer/footer.jsx'
+import Body from './components/body/body.jsx'
 import { BrowserRouter } from 'react-router-dom';
 function App() {
   return (
