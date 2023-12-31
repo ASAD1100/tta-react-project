@@ -1,0 +1,47 @@
+.body-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    width:100%;
+    
+
+}
+.body-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+}
+
+.body-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    width:100%;
+    border: 1px solid black;
+    background-color: whitesmoke;
+
+}
+
+.body-left p:hover{
+    transform: scale(1.7);
+
+}
+
+.body-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    width: 100%;
+    border: 1px solid black;
+
+}
+
+.body-right p:hover{
+    transform: scale(1.7);
+
+}
+

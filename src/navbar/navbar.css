@@ -1,0 +1,48 @@
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.navbar-left{
+    display: flex;
+    padding:20px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width:100vh;
+    border:1px solid black;
+    background-color: beige;
+    
+}
+.navbar-left p:hover{
+    transform: scale(1.7);
+    
+
+}
+.navbar-right{
+    display:flex;
+    padding:22px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 50px;
+    color: black; 
+    width:200vh;
+    border:1px solid black;
+    background-color: antiquewhite;
+}
+
+.navbar-right button{
+    border: none;
+    outline: none;
+    border-radius: 20px; 
+    background-color: antiquewhite;
+    cursor:pointer;
+}
+
+.navbar-right button:hover{
+
+    transform: scale(1.7);
+    text-decoration: underline;
+}
+
