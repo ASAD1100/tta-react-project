@@ -1,8 +1,5 @@
 .navbar{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   
+   display: flex;  
 }
 .navbar-left{
     display: flex;
@@ -22,26 +19,23 @@
 }
 .navbar-right{
     display:flex;
-    padding:22px;
+    padding:20px;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 50px;
+    padding-right: 30px;
     color: black; 
     width:200vh;
     border:1px solid black;
     background-color: antiquewhite;
 }
 
-.navbar-right button{
-    border: none;
-    outline: none;
+.navbar-right a{
     border-radius: 20px; 
     background-color: antiquewhite;
     cursor:pointer;
 }
 
-.navbar-right button:hover{
-
+.navbar-right a:hover{
     transform: scale(1.7);
     text-decoration: underline;
 }

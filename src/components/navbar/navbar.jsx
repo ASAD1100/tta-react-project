@@ -7,7 +7,7 @@ const Navbar = () => {
             <p>Lorem ipsum</p> 
             </div>
            <div className="navbar-right">
-            <button >Links</button>
+            <a href=''>Links</a>
            </div>
       </div>
          
