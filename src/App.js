@@ -1,13 +1,16 @@
-import Navbar from './components/navbar/navbar.jsx'
-import Footer from './components/footer/footer.jsx'
-import Content from './components/content/content.jsx'
+import { BrowserRouter ,Routes, Route} from "react-router-dom";
+import Home from "./pages/Home";
+
 function App() {
   return (
     <>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
 
-      <Navbar/>
-      <Content/>
-      <Footer/>
+      
  
     </>
   );
